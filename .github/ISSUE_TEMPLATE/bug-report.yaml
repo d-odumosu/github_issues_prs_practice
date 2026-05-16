@@ -1,0 +1,20 @@
+name: Bug Report
+description: Report something which isn't working properly
+title: "<title>"
+labels: [Bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue with this module! To help us fix please share a link to the page in the project and any steps required to reproduce it.
+  - type: input
+    attributes:
+      label: Link to the page
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Please include as much information as possible, including your OS and version numbers of any software involved.
+    validations:
+      required: true
